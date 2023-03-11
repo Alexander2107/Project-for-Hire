@@ -24,7 +24,7 @@ public class Minigame22: MonoBehaviour
         if(Time.time > nextSp)
         {
             nextSp = Time.time + spawnRa;
-            rndm = Random.Range(-7.37f, 7.57f);
+            rndm = Random.Range(-4.36f, 31.89f);
             wts = new Vector2(rndm, transform.position.y);
             Instantiate(obj, wts, Quaternion.identity);
         } 
